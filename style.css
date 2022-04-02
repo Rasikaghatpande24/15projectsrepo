@@ -1,0 +1,167 @@
+body {
+    padding: 0px 150px;
+    margin: 0px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+
+/*-----------------------------------------------------Header---------------------------------------------------------------------*/
+
+.header {
+    background-color: purple;
+    height: 100px;
+    width: auto;
+}
+
+.header h2 {
+    font-size: 40px;
+    color: #b3cfcf;
+    float: left;
+    margin: 30px;
+}
+
+.search {
+    float: right;
+    margin: 30px;
+}
+
+.search input {
+    padding: 10px;
+    color: purple;
+}
+
+.search input:first-child {
+    border: 1px solid purple;
+}
+
+
+/*---------------------------------------------------Navigation bar----------------------------------------------------------------*/
+
+.Nav-bar {
+    height: 50px;
+    background-color: purple;
+}
+
+.Nav-bar ul li {
+    float: left;
+    padding: 20px;
+    list-style: none;
+    height: 20px;
+}
+
+.Nav-bar ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #b3cfcf;
+    text-transform: uppercase;
+    border-right: 2px solid #b3cfcf;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.Nav-bar ul li:last-child {
+    border-right: none;
+}
+
+
+/*----------------------------------------------------Math Container----------------------------------------------------------*/
+
+.Mathhelp {
+    background-color: #b3cfcf;
+    color: purple;
+    padding: 30px;
+}
+
+
+/*---------------------------------------------------Student testimonial-----------------------------------------------------------*/
+
+.student-testimonial {
+    color: #b3cfcf;
+    background-color: purple;
+    padding: 20px;
+    margin: 20px 0px;
+    display: inline-block;
+}
+
+.student-testimonial h1 {
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.testimonial-img {
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+}
+
+.testimonials {
+    padding: 10px;
+    margin: 10px;
+}
+
+.testimonial-content {
+    display: inline-block;
+    width: 52%;
+    height: 50%;
+    vertical-align: top;
+}
+
+.testimonial-content h2,
+p {
+    text-align: center;
+}
+
+*
+/*-----------------------------------------------------------sidebar--------------------------------------------------*/
+
+.sidebars {
+    border: 1px solid purple;
+    height: 450px;
+    width: 450px;
+    padding: 20px;
+    margin: 10px 0px;
+    border-radius: 10%;
+    background-color: purple;
+}
+
+#left-sidebar {
+    float: left;
+    clear: left;
+}
+
+#right-sidebar {
+    float: right;
+}
+
+.sidebars h2 {
+    color: #b3cfcf;
+    padding-left: 54px;
+}
+
+.sidebars ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+.sidebars ul li a {
+    text-decoration: none;
+    color: #b3cfcf;
+    font-size: 15px;
+}
+
+
+/*-------------------------------------------------------footer-----------------------------------------------------*/
+
+.footer {
+    background-color: purple;
+    color: #b3cfcf;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 550px;
+    margin-bottom: 40px;
+}
